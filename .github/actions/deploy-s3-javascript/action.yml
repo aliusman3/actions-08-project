@@ -12,6 +12,9 @@ inputs:
   dist-folder:
     description: The path to the folder to upload
     required: true
+outputs:
+  website-url:
+    description: The URL of the deployed website
 runs:
   using: 'node20'
   main: 'main.js'
